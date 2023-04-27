@@ -13,7 +13,7 @@
 
 html {
   color: #222;
-  font-size: 1em;
+   font-size: 1em;
   line-height: 1.4;
 }
 
@@ -86,6 +86,25 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/* -------------Base Header-Footer Styles ---------*/
+header, 
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header  content-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 /* ==========================================================================
    Helper classes
